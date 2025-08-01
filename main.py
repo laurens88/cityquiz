@@ -9,7 +9,7 @@ if __name__ == "__main__":
 
     player = player.Player()
 
-    player.guess("Amsterdam")
-    player.guess("Bejing")
+    for city in data["Name"]:
+        player.guess(city)
 
     input("Press enter to exit...")

@@ -20,7 +20,7 @@ class Player:
         )
 
     def guess(self, city):
-        time.sleep(0.5)
+        time.sleep(0.2)
         self.input_box.send_keys(city)
-        time.sleep(0.5)
+        time.sleep(0.2)
         self.input_box.send_keys(Keys.RETURN)
